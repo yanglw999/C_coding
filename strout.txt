@@ -1,0 +1,4 @@
+fprintf printed str dd: this is a string constant, also called a string literal.
+fputs printed the str dd: this is a string constant, also called a string literal.
+bb: dog
+gúk¢ø
