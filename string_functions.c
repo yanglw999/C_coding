@@ -13,11 +13,9 @@ void main(void){
     occupied = (int)strlen(long_str);
     reserved = sizeof(many_lines)/ sizeof(char);
     buffer_size = BUFSIZ;
-    
+
     printf("The buffer size is:%d\n",buffer_size);
      //puts(buffer_size);
     printf("the length of long_str: %d\n", occupied);
-    printf("the max capacity of many_lines array: %d\n", reserved);
-   
-    
+    printf("the max capacity of many_lines array: %d\n", reserved);  
 }
