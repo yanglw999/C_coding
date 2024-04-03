@@ -19,7 +19,7 @@ void main(void){
     xx = strlen(aa);
     yy = xx * sizeof(char);
     bb[1] = (char *) malloc(yy); //malloc(size of bytes) and (char*) is to make sure it return same types
-    strcpy(bb[1], aa);
+    bb[1] = aa;
     puts(bb[1]);
     puts(aa);
     printf("------------------------section 3 realloc------------------------\n");
@@ -29,5 +29,7 @@ void main(void){
     bb[1] = (char*) realloc(bb[1], yy);
     strcpy(bb[1], aa);
     puts(bb[1]);
+    
+    free(bb[0]);
     free(bb[1]);
 }

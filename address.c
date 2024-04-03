@@ -7,8 +7,6 @@ void main(void){
     int *x = &i; // type 1
     int *y; // type 2
     y = &i;
-
-
     printf("address *x = %p\n",x);
     printf("address y = %p\n",y);
     printf("address i = %p\n",&i);

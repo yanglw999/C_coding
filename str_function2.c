@@ -12,8 +12,8 @@ void main(void){
     char *dd[] = {"Array ","of pointers ", "to string ", "constants."};
     int row_bb, num_elems_dd;
 
-    row_bb = sizeof(bb) / LENGTH;
-    num_elems_dd = sizeof(dd) / sizeof(char *);// $$$$
+    row_bb = sizeof(bb) / LENGTH;// sizeof(bb) is the whole capacity of 2-array bb[][]
+    num_elems_dd = sizeof(dd) / sizeof(char *);// $$$$ // sizeof(dd) is the whole size of pointer array dd
 
     function1(aa, bb, cc, dd, row_bb, num_elems_dd);
 
