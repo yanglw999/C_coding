@@ -25,7 +25,7 @@ void main(void){
         struct coord ele
 
     }*/
-    bubbleSort(arr);
+    bubbleSort(arr); //arr stands for the address of first element
     int n = 0;
     while(n < N){
         printf("%.2lf, ", arr[n].x);

@@ -18,6 +18,12 @@ void main(void){
     p -> age = 5;
     //strcpy((*p).gender, "female");
     strcpy(p->gender, "female");
-
     printf("name: %s age: %d gender: %s", person1.name, person1.age, person1.gender);
+
+    (*p).name = "Anna";
+    p -> age = 5;
+    //strcpy((*p).gender, "female");
+    strcpy(p->gender, "female");
+
+    printf("\n\nname: %s age: %d gender: %s", (*p).name, p->age, p->gender);
 }

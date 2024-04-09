@@ -9,7 +9,7 @@ struct Info{
 void fun1(struct Info *x, struct Info *y);
 void main(void){
     struct Info p1, p2;
-    fun1(&p1, &p2);
+    fun1(&p1, &p2);          //return values to p1, p2
     
     printf("%s  %d  %s  %s & %s\n%s  %d  %s  %s & %s",
     p1.name, p1.age, p1.gender, p1.parents[0],p1.parents[1],

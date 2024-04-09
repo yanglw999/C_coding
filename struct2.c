@@ -17,6 +17,7 @@ void main(void){
     Cook.name = "Cook";
 
     strcpy((Cook.basics.job), "CEO");
+    //Cook.basics.job[30] = "CEO";  THIS WAY DOES NOT WORK
     Cook.basics.age = 55;
     Cook.basics.height = 180;
 

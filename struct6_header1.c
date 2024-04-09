@@ -4,8 +4,8 @@ void main(void){
     int i, n = 0, m = 0;
     srand(10000);
     for(i = 0; i < N; i++){
-        nums[i] = rand() % 100 + 1;
-    }
+        nums[i] = rand() % 100 + 1; // rand()%100 will generate the int from 0 to 99
+    }                               // rand%101 will generate int from 0 to 100
 
     printf("the array before sort:\n");
     while(n < N){
