@@ -8,13 +8,12 @@ void main(void){
            case 1: printf("order breakfast;\n"); break;
            case 2: printf("lunch!\n"); break;
            case 3: printf("good evening\n""dinner!\n"); break;
+
            default: printf("not hungry.\n");
-              
      }
 
-
-
-
-
-getch();
+     for(int i = 0; i < 5; i++){
+            printf("try this\n");
+      }
+             
 }
